@@ -2,14 +2,16 @@
 title: "HelloWorld"
 author: "W. Wei"
 date: "9/9/2020"
-output: pdf_document
+output:
+  word_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-##This is a markdown file
 
+## This is a markdown file
 
 ## R Markdown
 
